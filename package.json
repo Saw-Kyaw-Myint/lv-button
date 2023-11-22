@@ -2,10 +2,10 @@
   "name": "vue-component-package",
   "version": "0.0.0",
   "main" : "./dist/vue-component-package.umd.js",
-  "module" : "./dist/vue-component-package.js",
+  "module" : "./dist/vue-component-package.mjs",
   "exports": {
     ".": {
-      "import": "./dist/vue-component-package.js",
+      "import": "./dist/vue-component-package.mjs",
       "require": "./dist/vue-component-package.umd.js"
     },
     "./style.css": "./dist/style.css"
