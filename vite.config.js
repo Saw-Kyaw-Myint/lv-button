@@ -9,8 +9,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.js"),
-      name: "lv-button",
-      fileName:`lv-button` ,
+      name: "skm-lv-button",
+      fileName:`skm-lv-button` ,
     },
   },
   rollupOptions: {

@@ -1,12 +1,12 @@
 {
   "name": "lv-button",
   "version": "0.0.0",
-  "main": "./dist/lv-button.umd.js",
-  "module": "./dist/lv-button.mjs",
+  "main": "./dist/skm-lv-button.umd.js",
+  "module": "./dist/skm-lv-button.mjs",
   "exports": {
     ".": {
-      "import": "./dist/lv-button.mjs",
-      "require": "./dist/lv-button.umd.js"
+      "import": "./dist/skm-lv-button.mjs",
+      "require": "./dist/skm-lv-button.umd.js"
     },
     "./dist/style.css" : "./dist/style.css"
   },
