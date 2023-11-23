@@ -1,5 +1,5 @@
 {
-  "name": "lv-button",
+  "name": "skm-lv-button",
   "version": "0.0.0",
   "main": "./dist/skm-lv-button.umd.js",
   "module": "./dist/skm-lv-button.mjs",
