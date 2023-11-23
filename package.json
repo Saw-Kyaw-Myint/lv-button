@@ -1,7 +1,15 @@
 {
   "name": "lv-button",
   "version": "0.0.0",
-  "private": true,
+  "main": "./dist/lv-button.umd.js",
+  "module": "./dist/lv-button.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/lv-button.mjs",
+      "require": "./dist/lv-button.umd.js"
+    },
+    "./dist/style.css" : "./dist/style.css"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
