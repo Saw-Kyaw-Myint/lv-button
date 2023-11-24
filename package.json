@@ -1,15 +1,15 @@
 {
-  "name": "skm-lv-button",
+  "name": "scm-lv-button",
   "version": "0.0.1",
   "files": [
     "dist"
   ],
-  "main": "./dist/skm-lv-button.umd.js",
-  "module": "./dist/skm-lv-button.mjs",
+  "main": "./dist/scm-lv-button.umd.js",
+  "module": "./dist/scm-lv-button.mjs",
   "exports": {
     ".": {
-      "import": "./dist/skm-lv-button.mjs",
-      "require": "./dist/skm-lv-button.umd.js"
+      "import": "./dist/scm-lv-button.mjs",
+      "require": "./dist/scm-lv-button.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
